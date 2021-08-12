@@ -1,0 +1,303 @@
+@media all and (max-width:1000px){
+*{
+  box-sizing:border-box;
+ }
+body{
+    width: 100%;
+    text-align: left;
+    height: 120%;
+    }
+
+.header{
+        display: flex;
+        background-color: #b2bec3; 
+        
+    }
+.header-logo{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size:42px;
+        text-align: center;
+        margin-left: 190px;
+    }
+
+    
+.selected{
+    disp: none;
+    }
+
+.menu-icon {
+        color: red;
+        float: right;
+        font-size: 25px;
+        padding: 21px 0;
+                
+    }
+
+.header-list{
+        display: none;
+    }
+
+.product{
+    flex: auto;
+    display: block;
+    padding-left: none;
+    }
+
+.best-product{
+    margin-right:100px;
+    width: 50%;
+    float: left;
+
+    }
+.top-wrapper {
+    padding: 180px 0 ;
+  
+    background-image: url("https://blogunik.com/wp-content/uploads/2020/01/trend-fashion-wanita-2020.jpg");
+    background-size: auto;
+    color: white;
+    text-align: left;
+    }
+.product-icon:{ 
+    width:100%;
+    }
+.btn-wrapper{
+    width: 100%;
+    }
+.container{
+     margin-left:100px 
+    }
+.container p{
+    text-align: left;
+    margin: 0;
+    }
+.btn{
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    display: block;
+    padding-left: 40px;
+    }
+.btn-wrapper p{
+    text-align: left;
+    }
+.btn{
+    float: none;
+    padding-top: 15px;
+    padding-left: 50px;
+    }
+
+.nomer{
+    margin-top: 20px;
+    }
+.top-wrapper {
+    
+    background-image: url("https://blogunik.com/wp-content/uploads/2020/01/trend-fashion-wanita-2020.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    }
+.list-wrapper{
+    height: 1700px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: left;
+    padding-left: 100px;
+    }
+.gatau{
+    float: none;
+    }
+.males:hover {
+    opacity: 1;
+    }
+.box1{ background-image: url(https://images.pexels.com/photos/1857883/pexels-photo-1857883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    width:100%px;
+    height: 250px;
+    align-item: left;
+    justify-content: left;
+
+    }
+.box2{ background-image: url(https://ae01.alicdn.com/kf/H74f825637eee44c284823f9e0692854dn/Pakaian-Anak-Perempuan-Set-Baju-Anak-Perempuan-Remaja-Musim-Gugur-Rok-Jala-2-Potong-Set-untuk.jpg_Q90.jpg_.webp);
+    background-size: cover;width:100%px;
+    height: 250px;
+    align-item: left;
+    justify-content: left;
+    }
+.box3{ background-image:url(https://awsimages.detik.net.id/community/media/visual/2021/03/24/hijab-plisket-5.jpeg?w=600);
+    background-size: cover;
+    width:100%px;
+    height: 250px;
+    align-item: left;
+    justify-content: left;
+    }
+.males{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    font-size: 32px;
+    opacity: 0.4;
+    color: whitesmoke;
+    }
+.flex-container{
+    width: 100%;
+    }
+
+footer{
+    height:  300px;
+    }
+.emailhere{
+    width: 100%;
+    }
+
+}
+
+
+@media all and (max-width:670px){
+   *{
+  box-sizing:border-box;
+    }
+body{
+    width: 100%;
+    text-align: left;
+    height: 120%;
+    } 
+.header{
+    display: flex;
+    background-color: #b2bec3; 
+        
+    }
+.header-logo{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size:40px;
+    text-align: center;
+    margin: center
+}
+
+    
+.selected{
+    disp: none;
+}
+.menu-icon {
+    color: red;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+               
+      }
+    .header-list{
+    display: none;
+    }
+.product{
+    flex: auto;
+    display: block;
+    padding-left: none;
+}
+
+.best-product{
+    margin-right:100px;
+    width: 100%;
+
+}
+.top-wrapper {
+    padding: 180px 0;
+    background-image: url("https://blogunik.com/wp-content/uploads/2020/01/trend-fashion-wanita-2020.jpg");
+    background-size: auto;
+    color: white;
+    text-align: left;
+  }
+.product-icon:
+width:100%;
+.btn-wrapper{
+    width: 100%;
+}
+.container{
+    margin-left:100px 
+}
+.tombol{
+    margin-left: 180px;
+}
+.container p{
+    text-align: left;
+margin: 0;
+}
+.btn{
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    display: block;
+    padding-left: 40px;
+}
+.btn-wrapper p{
+    text-align: left;
+}
+.btn{
+    float: none;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.nomer{
+    margin-top: 20px;
+}
+.top-wrapper {
+    
+    background-image: url("https://blogunik.com/wp-content/uploads/2020/01/trend-fashion-wanita-2020.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+.list-wrapper{
+    height: 1700px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: left;
+  padding-left: 100px;
+}
+.gatau{
+    float: none;
+}
+.males:hover {
+    opacity: 1;
+  }
+.box1{ background-image: url(https://images.pexels.com/photos/1857883/pexels-photo-1857883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+width:100%px;
+height: 250px;
+align-item: left;
+justify-content: left;
+
+}
+.box2{ background-image: url(https://ae01.alicdn.com/kf/H74f825637eee44c284823f9e0692854dn/Pakaian-Anak-Perempuan-Set-Baju-Anak-Perempuan-Remaja-Musim-Gugur-Rok-Jala-2-Potong-Set-untuk.jpg_Q90.jpg_.webp);
+background-size: cover;width:100%px;
+height: 250px;
+align-item: left;
+justify-content: left;
+ }
+.box3{ background-image:url(https://awsimages.detik.net.id/community/media/visual/2021/03/24/hijab-plisket-5.jpeg?w=600);
+background-size: cover;
+width:100%px;
+height: 250px;
+align-item: left;
+justify-content: left;
+ }
+.males{
+  position: relative;
+  top: 150px;
+  width: 100%;
+  font-size: 32px;
+  opacity: 0.4;
+  color: whitesmoke;
+}
+.flex-container{
+    width: 100%;
+}
+
+footer{
+    height:  300px;
+}
+.emailhere{
+    width: 100%;
+}
+}
