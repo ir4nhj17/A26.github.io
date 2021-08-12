@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  li { 
+    list-style: none; 
+    float: left; 
+    padding: 35px 20px; 
+  } 
+   
+  .selected { 
+    list-style: none; 
+    float: right; 
+    padding: 35px 20px;  
+    transition: text 1s 
+     
+  } 
+   
+  li:hover { 
+    background-color: rgba(150, 150, 150, 0.856); 
+   } 
+ 
+  .header { 
+    background-color: #b2bec3; 
+    color: #fff; 
+    height: 90px; 
+  } 
+   
+  .header-logo { 
+    float: left; 
+    font-size: 90px; 
+    padding: 1px 80px; 
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display:none;
+  }
+  a {
+    text-decoration: none;
+  }
+ 
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+ 
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url("https://blogunik.com/wp-content/uploads/2020/01/trend-fashion-wanita-2020.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+ 
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 90px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+ 
+  .top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+  font-size:30px;
+  }
+ 
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+ 
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  .shop{
+     background-color: #3b5998;
+  }
+ 
+  .signup {
+    background-color: #239b76;
+  }
+ 
+  .nomer {
+    background-color: #239b76;
+    margin-right: 10px;
+  }
+ 
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+ 
+  .btn:hover {
+    opacity: 1;
+  }
+ 
+  .fa {
+    margin-right: 5px;
+    color: black;
+  }
+ 
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position:fixed;
+    top:0;
+    /* Ubah z-index ke 10 */
+    z-index:10;
+  }
+ 
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+ 
+  .header-left {
+    float: left;
+  }
+ 
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+ 
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+ 
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  .list-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+.best-product {
+  margin-top: 30px;
+  float: left;
+  width: 25%;
+}
+
+.product-icon {
+  position: relative;
+}
+
+.product-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 25px;
+  color: #b3aeb5;
+}
+.gatau{
+    display: flex;
+     background: #ecf0f1;
+     border-top: 2px solid #dee7ec;
+}
+.box{
+    padding:30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-align: center;
+    width: 250px;
+
+}
+.box1{ background-image: url(https://images.pexels.com/photos/1857883/pexels-photo-1857883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+width:400px;
+height: 250px;
+align-item: center;
+justify-content: center;
+font
+}
+.box2{ background-image: url(https://ae01.alicdn.com/kf/H74f825637eee44c284823f9e0692854dn/Pakaian-Anak-Perempuan-Set-Baju-Anak-Perempuan-Remaja-Musim-Gugur-Rok-Jala-2-Potong-Set-untuk.jpg_Q90.jpg_.webp);
+ width:400px;
+height: 250px;
+align-item: center;
+justify-content: center;
+ }
+.box3{ background-image:url(https://awsimages.detik.net.id/community/media/visual/2021/03/24/hijab-plisket-5.jpeg?w=600);
+   width:400px;
+height: 250px;
+align-item: center;
+justify-content: center;
+ }
+.males{
+  position: relative;
+  top: 150px;
+  width: 100%;
+  font-size: 40px;
+  opacity: 0.4;
+  color: whitesmoke;
+}
+.males:hover {
+    opacity: 1;
+  }
+footer {
+  background-color: #f6f6f6;
+  color: #333232;
+  height: 250px;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-container {
+  padding-bottom: 20px;
+  border-bottom: solid;
+  flex-direction: row;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.logo {
+  padding: 20px;
+  position: absolute;
+  display: inline-block;
+}
+
+.side-note {
+  float: right;
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.footer-mid {
+  padding: 20px;
+  margin: auto;
+}
+
+.footer-mid2 {
+  margin: auto;
+}
